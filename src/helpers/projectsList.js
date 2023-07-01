@@ -14,6 +14,7 @@ const projects = [
         img: project01,
         imgBig: project01Big,
         gitHubLink: "https://github.com/youngbabybye/Star-Wars-API-project",
+        vercelLink: "https://star-wars-api-navy.vercel.app/",
     },
     {
         title: "Films Catalog Vik Movies",
@@ -21,6 +22,7 @@ const projects = [
         imgBig: project02Big,
         skills: "React, HTML, CSS, Adaptive layout, JavaScript",
         gitHubLink: "https://github.com/youngbabybye/vik-movies",
+        vercelLink: "https://vik-movies.vercel.app/",
     },
     {
         title: "Whats App Clone Green API",
@@ -28,6 +30,7 @@ const projects = [
         imgBig: project03Big,
         skills: "ReactJS, Node.js, HTML, CSS, JavaScript",
         gitHubLink: "https://github.com/youngbabybye/green-api-app-test-task",
+        vercelLink: "https://green-api-app.vercel.app/",
     },
 ];
 

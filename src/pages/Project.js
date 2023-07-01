@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import { projects } from "./../helpers/projectsList";
+import BtnVercel from "../components/btnVercel/BtnVercel";
 
 const Project = () => {
     const { id } = useParams();
@@ -21,10 +22,14 @@ const Project = () => {
                     <div className="project-details__desc">
                         <p>Skills: {project.skills}</p>
                     </div>
-
-                    {project.gitHubLink && (
-                        <BtnGitHub link={project.gitHubLink} />
-                    )}
+                    <div className="btns">
+                        {project.gitHubLink && (
+                            <BtnGitHub link={project.gitHubLink} />
+                        )}
+                        {project.vercelLink && (
+                            <BtnVercel link={project.vercelLink} />
+                        )}
+                    </div>
                 </div>
             </div>
         </main>
