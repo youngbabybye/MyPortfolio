@@ -9,7 +9,7 @@ import project03Big from "./../img/projects/03-big.jpg";
 
 const projects = [
     {
-        title: "Star Wars Test Tasq",
+        title: "Star Wars Test Task",
         skills: "React, Node.js, HTML, CSS, React Router-dom, Material UI, JavaScript",
         img: project01,
         imgBig: project01Big,
